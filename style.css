@@ -1,0 +1,848 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  color:#f5f7fb;
+}
+.hero {
+  height: 60vh;
+  background: url('https://images.unsplash.com/photo-1601582585289-0c9cfc8c4d63') center/cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.btn {
+  border-radius: 25px;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+body {
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+
+/* Buttons */
+.btn-custom {
+  border-radius: 25px;
+}
+
+/* Page spacing */
+.container {
+  padding-top: 20px;
+}
+
+.call-float-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #28a745;
+  color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  text-decoration: none;
+  z-index: 999;
+  transition: 0.3s ease;
+}
+
+.call-float-btn:hover {
+  transform: scale(1.1);
+  background: #218838;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* TruckLink Dispatch - Left Corner for ALL Pages */
+
+  .navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar .container-fluid {
+  margin-left: 0 !important;
+}
+
+.navbar-brand:hover {
+  color: #ffc10709 !important;
+  background: #0b5dd700 !important;
+}
+
+
+.navbar .container {
+  margin-left: 180px !important;
+}
+
+/* for mobile */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 14px !important;
+    padding: 5px 12px !important;
+    top: 10px !important;
+    left: 10px !important;
+  }
+  .navbar .container {
+    margin-left: 130px !important;
+  }
+}
+
+
+/* Active link white color */
+.nav-link.active {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:active {
+  color: #ffffff !important;
+ 
+  border-radius: 20px !important;
+  padding: 8px 16px !important;
+}
+
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Pricing Cards - Light Yellow Clean Theme */
+.card {
+  background: linear-gradient(135deg, #fff9e6, #fff3cc); /* soft light yellow */
+  border: 2px solid #ffe08a;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(255, 193, 7, 0.2);
+  border-color: #ffd54f;
+}
+
+.card h3 {
+  color: #cc8400; /* dark yellow/orange */
+  font-weight: bold;
+}
+
+.card h4 {
+  color: #000 !important;  /* black color */
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.card p {
+  color: #7a5c00;
+}
+
+
+.card.border-primary {
+  border: 2px solid #ffd54f !important;
+  background: linear-gradient(135deg, #fff9e6, #fff3cc);
+  transform: scale(1.02);
+}
+
+.card.border-primary h3 {
+  color: #cc8400;
+}
+
+/* Top bar */
+.top-bar {
+  background-color: transparent;
+  color: #cc8400;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-brand {
+  margin-left: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #cc8400;
+}
+/* Services Cards Heading - same as Pricing */
+.card h5 {
+  color: #cc8400;   /* same yellow/orange tone */
+  font-weight: bold;
+}
+.footer {
+  background: linear-gradient(135deg, #1c1c2b, #2b2b3c);
+  color: #ccc;
+  padding: 50px 0;
+  font-size: 14px;
+}
+
+.footer h4, 
+.footer h5 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  color: #bbb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer ul li:hover {
+  color: #ff8c00; /* yellow/orange hover */
+}
+
+.footer-logo {
+  color: #ff8c00;
+  font-size: 20px;
+}
+
+.btn-contact {
+  background-color: #ff8c00;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn-contact:hover {
+  background-color: #e67600;
+}
+
+.footer hr {
+  border-color: #444;
+  margin: 30px 0;
+}
+
+.copy {
+  color: #888;
+}
+
+/* Social style */
+.social li {
+  display: flex;
+  align-items: center;
+}
+
+/* HERO SECTION */
+.about-hero {
+  background: url('image/about slide.avif') center/cover no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.about-hero .overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about-hero h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about-hero p {
+  color: #ddd;
+  max-width: 500px;
+}
+
+/* CONTENT */
+.about-content {
+  padding: 60px 0;
+}
+
+.small-title {
+  letter-spacing: 2px;
+  color: #888;
+  font-size: 14px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.stat-box {
+  background: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.stat-box h3 {
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+.stat-box p {
+  margin: 0;
+  color: #666;
+}
+.services-heading {
+  color: black;
+  text-align: center;
+  margin-top: 50px;  /* top se space */
+}
+
+
+.btn-custom {
+  background: linear-gradient(45deg, #2c5364, #203a43);
+  color: white !important; /* ✅ force white */
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(44,83,100,0.3);
+}
+
+.btn-custom:hover {
+  color: white !important; /* ✅ hover pe bhi white */
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(44,83,100,0.5);
+}
+/* Contact Box */
+.contact-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Custom Button */
+.btn-custom {
+  background: linear-gradient(45deg, #2c5364, #203a43);
+  color: white !important;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+}
+
+/* Info Boxes */
+.info-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.icon {
+  font-size: 30px;
+  color: #2c5364;
+  margin-bottom: 10px;
+}
+
+/* Floating Call Button */
+.call-float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+body {
+  background: #f8f9fa;
+  font-family: Arial;
+}
+
+/* Left Side */
+.image-box {
+  text-align: center;
+}
+
+.image-box h3 {
+  color: #2c5364;
+  margin-top: 10px;
+}
+
+/* Form Box */
+.form-box {
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.form-title {
+  font-weight: bold;
+  color: #2c5364;
+}
+
+/* Input */
+.form-control {
+  border-radius: 8px;
+}
+
+.input-group-text {
+  background: #2c5364;
+  color: white;
+  border: none;
+}
+
+/* Button */
+.btn-custom {
+  background: linear-gradient(45deg, #2c5364, #203a43);
+  color: white !important;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(44,83,100,0.3);
+}
+
+/* Call Button */
+.call-float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+/* PAGE BACKGROUND */
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* ROW FIX (equal height cards) */
+.row.align-items-stretch {
+  display: flex;
+}
+
+/* IMAGE BOX */
+.image-box {
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 🔥 perfect crop */
+  display: block;
+}
+
+/* FORM BOX */
+.form-box {
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* TITLE */
+.form-title {
+  font-weight: bold;
+  color: #2c5364;
+}
+
+/* INPUT STYLE */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.input-group-text {
+  background: #2c5364;
+  color: white;
+  border: none;
+}
+
+/* BUTTON */
+.btn-custom {
+  background: linear-gradient(45deg, #2c5364, #203a43);
+  color: white !important;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(44,83,100,0.3);
+}
+
+/* CALL BUTTON */
+.call-float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 999;
+}
+
+/* Title */
+.pricing-title {
+  font-weight: bold;
+  color: #2c5364;
+}
+
+/* Card */
+.pricing-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  height: 100%;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Featured Card */
+.featured {
+  border: 2px solid #2c5364;
+  transform: scale(1.05);
+}
+
+/* Badge */
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #2c5364;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Price */
+.price {
+  color: #2c5364;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/* List */
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-card ul li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Button */
+.btn-custom {
+  background: linear-gradient(45deg, #2c5364, #203a43);
+  color: white !important;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(44,83,100,0.3);
+}
+
+/* Call Button */
+.call-float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 999;
+}
+
+ /* ===== HERO SLIDESHOW FINAL ===== */
+.hero {
+  position: relative;
+  height: 80vh;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.slide-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.slide-bg.active {
+  opacity: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+ 
+  
+/* Heading */
+.services-heading {
+  font-weight: bold;
+  color: #2c5364;
+}
+
+/* Service Card */
+.service-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Icons */
+.icon {
+  font-size: 40px;
+  color: #2c5364;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.service-card h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Call Button */
+.call-float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 999;
+}
+
+
+.btn-custom {
+  background: linear-gradient(45deg, #2c5364, #203a43);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+}
+
+.section-title {
+  font-weight: bold;
+  color: #2c5364;
+}
+
+.service-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 40px;
+  color: #2c5364;
+  margin-bottom: 10px;
+}
+.feature-card {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transform: scale(1.05);
+}
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navbar fix on mobile */
+.navbar-nav {
+  text-align: center;
+}
+
+/* Footer fix white gap issue */
+footer {
+  margin-top: 0 !important;
+  padding-top: 40px;
+}
+
+/* Fix container spacing on mobile */
+@media (max-width: 768px) {
+@media (max-width: 768px) {
+
+    footer .row {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    footer .col-md-3 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    .btn-contact {
+        margin-top: 15px;
+        display: inline-block;
+    }
+}
+}
+

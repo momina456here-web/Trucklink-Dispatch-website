@@ -1,0 +1,37 @@
+
+document.getElementById("driverForm").addEventListener("submit", function(e) {
+  e.preventDefault(); // page reload stop
+
+  // inputs
+  let name = document.querySelector('input[placeholder="Full Name"]').value.trim();
+  let license = document.querySelector('input[placeholder="License Number"]').value.trim();
+  let experience = document.querySelector('input[placeholder="Experience (Years)"]').value.trim();
+  let phone = document.querySelector('input[placeholder="Phone Number"]').value.trim();
+
+  // simple validation
+  if (name === "" || license === "" || experience === "" || phone === "") {
+    alert("⚠️ Please fill all fields");
+    return;
+  }
+
+  if (isNaN(experience) || experience <= 0) {
+    alert("⚠️ Please enter valid experience");
+    return;
+  }
+
+  if (phone.length < 10) {
+    alert("⚠️ Please enter valid phone number");
+    return;
+  }
+
+  // success message show
+  document.getElementById("successMsg").classList.remove("d-none");
+
+  // form reset
+  this.reset();
+
+  // hide message after 3 sec
+  setTimeout(() => {
+    document.getElementById("successMsg").classList.add("d-none");
+  }, 3000);
+});
